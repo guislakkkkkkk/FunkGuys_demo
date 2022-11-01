@@ -6,7 +6,7 @@
 local scriptName = string.sub(debug.getinfo(1).source, 2);
 local scriptDir = scriptName:sub(1, scriptName:match('^.*()/'));
 
-require(scriptDir..'ds_utils');
+require(scriptDir..'script4');
 -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 -- Internals
 -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
