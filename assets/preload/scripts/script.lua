@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
 -- Camera sway script                                               by DragShot
 --------------------------------------------------------------------------------
--- Dependencies: ds_utils.lua
+-- Dependencies: script4.lua
 -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 local scriptName = string.sub(debug.getinfo(1).source, 2);
 local scriptDir = scriptName:sub(1, scriptName:match('^.*()/'));
